@@ -1,0 +1,3 @@
+﻿locuinta,Alex,2022,2,75000,Sibiu
+casa,Ana,1990,1,30000,Cluj,6,200,true
+masina,audi,benzina,manual,2017,450,2

@@ -1,0 +1,1 @@
+﻿frigider,1000,samsung,20,functie,500,5,10,true
