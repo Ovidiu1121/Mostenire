@@ -24,7 +24,7 @@ namespace Teorie.proprietate
             this.hasGarage = hasGarage;
         }
 
-        public Casa(string prop)
+        public Casa(string prop):base(prop)
         {
             string[] a = prop.Split(",");
 

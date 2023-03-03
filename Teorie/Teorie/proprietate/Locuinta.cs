@@ -24,7 +24,7 @@ namespace Teorie.proprietate
             this.address = address;
         }
 
-        public Locuinta(string prop)
+        public Locuinta(string prop):base(prop)
         {
             string[] a = prop.Split(",");
 

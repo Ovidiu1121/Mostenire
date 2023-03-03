@@ -24,7 +24,7 @@ namespace Teorie.dispozitiv_electric
             this.areCongelator = areCongelator;
         }
 
-        public Frigider(string prop)
+        public Frigider(string prop) : base(prop)
         {
             string[] a = prop.Split(",");
 
