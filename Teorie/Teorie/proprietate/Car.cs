@@ -25,13 +25,13 @@ namespace Teorie.proprietate
             this.doors = doors;
         }
 
-        public Car(string prop)
+        public Car(string prop):base(prop)
         {
             string[] a=prop.Split(",");
 
-            this.manufacturingYear=int.Parse(a[4]);
-            this.horsePower=int.Parse(a[5]);
-            this.doors=int.Parse(a[6]);
+            this.manufacturingYear=int.Parse(a[6]);
+            this.horsePower=int.Parse(a[7]);
+            this.doors=int.Parse(a[8]);
 
         }
 

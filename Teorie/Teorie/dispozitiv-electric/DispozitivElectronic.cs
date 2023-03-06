@@ -25,7 +25,7 @@ namespace Teorie.dispozitiv_electric
             this.memorie = memorie;
         }
 
-        public DispozitivElectronic(string prop)
+        public DispozitivElectronic(string prop) : base(prop)
         {
             string[] a = prop.Split(",");
 

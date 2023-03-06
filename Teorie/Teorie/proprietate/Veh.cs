@@ -24,13 +24,13 @@ namespace Teorie.proprietate
             this.transmission = transmission;
         }
 
-        public Veh(string prop)
+        public Veh(string prop):base(prop)
         {
             string[] a = prop.Split(",");
 
             this.brand = a[3];
             this.fuel = a[4];
-            this.transmission = a[4];
+            this.transmission = a[5];
 
 
         }
@@ -60,7 +60,7 @@ namespace Teorie.proprietate
 
             text+="brand: "+this.brand+", ";
             text+="fuel: "+this.fuel+", ";
-            text+="transmission: "+this.transmission;
+            text+="transmission: "+this.transmission+", ";
 
             return text;
 

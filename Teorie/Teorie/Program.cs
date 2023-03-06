@@ -4,8 +4,7 @@ using Teorie.controler;
 using Teorie.dispozitiv_electric;
 
 
-
-ControlDispozitivElectric a=new ControlDispozitivElectric();
+ControlProprietate a=new ControlProprietate();
 
 a.afisare();
 

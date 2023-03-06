@@ -25,7 +25,7 @@ namespace Teorie.dispozitiv_electric
             this.consumDeEnergie = consumDeEnergie;
         }
 
-        public DispozitivElectrocasnic(string prop)
+        public DispozitivElectrocasnic(string prop):base(prop)
         {
             string[] a = prop.Split(",");
 

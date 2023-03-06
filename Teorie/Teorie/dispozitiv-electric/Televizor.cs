@@ -25,7 +25,7 @@ namespace Teorie.dispozitiv_electric
             this.tipEcran = tipEcran;
         }
 
-        public Televizor(string prop)
+        public Televizor(string prop) : base(prop)
         {
             string[] a = prop.Split(",");
 
