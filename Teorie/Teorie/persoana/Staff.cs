@@ -44,9 +44,9 @@ namespace Teorie.persoana
             set { this.dogOwner = value; }
         }
 
-        public string staffDescription()
+        public override string description()
         {
-            string text = base.employeeDescription();
+            string text = base.description();
 
             text+="task: "+this.task+", ";
             text+="dog owner: "+this.dogOwner;

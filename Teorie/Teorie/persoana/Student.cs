@@ -52,9 +52,9 @@ namespace Teorie.persoana
             set { this.school=value; }
         }
 
-        public string studentDescription()
+        public override string description()
         {
-            string text = base.personDescription();
+            string text = base.description();
 
             text+="id: "+this.id+", ";
             text+="grade: "+this.Grade+", ";

@@ -8,7 +8,7 @@ namespace Teorie.persoana
 {
     public class Faculty:Employee
     {
-        private string description;
+        private string descriere;
         private string address;
         private string website;
 
@@ -17,9 +17,9 @@ namespace Teorie.persoana
 
         }
 
-        public Faculty(string description, string address,string website ) :base()
+        public Faculty(string descriere, string address,string website ) :base()
         {
-            this.description = description;
+            this.descriere = descriere;
             this.address = address;
             this.website = website;
         }
@@ -28,16 +28,16 @@ namespace Teorie.persoana
         {
             string[] a = prop.Split(",");
 
-            this.description=a[7] ;
+            this.descriere=a[7] ;
             this.address=a[8];
             this.website=a[9];
 
         }
 
-        public string Description
+        public string Descriere
         {
-            get { return this.description; }
-            set { this.description = value; }
+            get { return this.descriere; }
+            set { this.descriere = value; }
         }
 
         public string Address
@@ -52,11 +52,11 @@ namespace Teorie.persoana
             set { this.website=value; }
         }
 
-        public string facultyDescription()
+        public override string description()
         {
-            string text = base.employeeDescription();
+            string text = base.description();
 
-            text+="desciption: "+this.description+", ";
+            text+="desciption: "+this.descriere+", ";
             text+="Adress: "+this.address+", ";
             text+="website: "+this.website;
 

@@ -2,15 +2,12 @@
 using System.Diagnostics;
 using Teorie.controler;
 using Teorie.dispozitiv_electric;
+using Teorie.scoala;
 
 
-ControlProprietate a=new ControlProprietate();
+ControlPersoana a=new ControlPersoana();
 
 a.afisare();
-
-
-
-
 
 
 

@@ -45,9 +45,9 @@ namespace Teorie.persoana
             set { this.nrDeSubordonati=value; }
         }
 
-        public string administartorDescription()
+        public override string description()
         {
-            string text =base.employeeDescription();
+            string text =base.description();
 
             text+="vechime: "+this.vechime+", ";
             text+="nr de subordonati: "+this.nrDeSubordonati;
