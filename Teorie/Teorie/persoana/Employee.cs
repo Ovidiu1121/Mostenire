@@ -52,9 +52,9 @@ namespace Teorie.persoana
             set { this.job=value; }
         }
 
-        public string employeeDescription()
+        public override string description()
         {
-            string text = base.personDescription();
+            string text = base.description();
 
             text+="id: "+this.id+", ";
             text+="salary: "+this.salary+", ";

@@ -57,7 +57,7 @@ namespace Teorie.persoana
             set { gender = value; }
         }
 
-        public string personDescription()
+        public virtual string description()
         {
             string text = "";
 

@@ -1,1 +1,2 @@
 ﻿administrator,Mihai,45,male,555,1200,politician,2003,40
+staff,Alex,32,male,111,7000,asistent,verificare acte,true

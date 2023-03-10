@@ -1,0 +1,2 @@
+﻿elev,alex,15,1111,35
+profesor,mihai,40,geografie,6

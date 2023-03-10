@@ -54,42 +54,10 @@ namespace Teorie.controler
 
         public void afisare()
         {
-
           
             for(int i = 0; i<lista.Count; i++)
             {
-
-                if (lista[i] is Faculty)
-                {
-                    Faculty faculty = lista[i] as Faculty;
-                    Console.WriteLine(faculty.facultyDescription());
-                }
-
-                else if (lista[i] is Administrator)
-                {
-                     Administrator administrator = lista[i] as Administrator;
-                    Console.WriteLine(administrator.administartorDescription());
-                }
-
-                else if (lista[i] is Staff)
-                {
-                    Staff staff = lista[i] as Staff;
-                    Console.WriteLine(staff.staffDescription());
-                }
-
-               else  if (lista[i] is Employee)
-                {
-                    Employee employee = lista[i] as Employee;
-                    Console.WriteLine(employee.employeeDescription());
-                }
-
-                else if (lista[i] is Student)
-                {
-                    Student student = lista[i] as Student;
-                    Console.WriteLine(student.studentDescription());
-                }
-
-
+                Console.WriteLine(lista[i].description());
             }
         }
 
