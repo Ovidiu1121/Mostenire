@@ -17,7 +17,7 @@ namespace Teorie.persoana
 
         }
 
-        public Student(int id,int garde,string school,string name,int age,string gender,string type):base()
+        public Student(int id,int garde,string school,string name,int age,string gender,string type):base(name,age,gender,type)
         {
             this.id=id;
             this.grade = garde;

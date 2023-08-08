@@ -17,10 +17,10 @@ namespace Teorie.persoana
 
         }
 
-        public Administrator(int vechime,int nrDeSubordonati) : base()
+        public Administrator(int vechime,int nrDeSubordonatiint,int id, int salary, string job, string name, int age, string gender, string type) : base(id, salary, job, name, age, gender, type)
         {
             this.vechime = vechime;
-            nrDeSubordonati = nrDeSubordonati;
+            this.nrDeSubordonati = nrDeSubordonati;
            
         }
 
