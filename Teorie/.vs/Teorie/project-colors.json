@@ -5,7 +5,17 @@
       "ProjectGuid": "e157ac64-b047-4786-82b6-f437cfdb68da",
       "DisplayName": "Teorie",
       "ColorIndex": 0
+    },
+    "03e556b6-dcf6-4c98-9479-46c28f933ce5": {
+      "ProjectGuid": "03e556b6-dcf6-4c98-9479-46c28f933ce5",
+      "DisplayName": "Test",
+      "ColorIndex": 1
+    },
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "Miscellaneous Files",
+      "ColorIndex": -1
     }
   },
-  "NextColorIndex": 1
+  "NextColorIndex": 2
 }

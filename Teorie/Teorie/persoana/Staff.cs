@@ -16,7 +16,7 @@ namespace Teorie.persoana
 
         }
 
-        public Staff(string task,bool dogOwner) : base() 
+        public Staff(string task,bool dogOwner, int id, int salary, string job, string name, int age, string gender, string type) : base(id,salary,job,name,age,gender,type) 
         {
             this.task = task;
             this.dogOwner = dogOwner;

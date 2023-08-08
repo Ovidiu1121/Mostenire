@@ -39,6 +39,12 @@ namespace Teorie.persoana
 
         }
 
+        public string Type
+        {
+            get { return type; }
+            set { type = value; }
+        }
+
         public string Name   // property
         {
             get { return name; }   // get method

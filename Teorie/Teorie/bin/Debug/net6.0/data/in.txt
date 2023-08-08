@@ -1,2 +1,7 @@
-﻿administrator,Mihai,45,male,555,1200,politician,2003,40
-staff,Alex,32,male,111,7000,asistent,verificare acte,true
+﻿administrator,Mihai,45,male,55,1200,politician,2003,40
+staff,Alex,32,male,11,7000,asistent,verificare acte,true
+administrator, Horry, 25, male, 2, 2457, Account Executive, 2007, 20
+administrator, Petrello, 63, female, 6, 4297, Marketing Assistant, 2013, 500
+staff, Venard, 32, female, 7, 3044, Senior Editor, task2,false
+staff, Pedroli, 67, male, 4, 2762, VP Accounting, task3,true
+student, Ana, 19, female, 9, 8, cngl

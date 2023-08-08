@@ -17,7 +17,7 @@ namespace Teorie.persoana
 
         }
 
-        public Faculty(string descriere, string address,string website ) :base()
+        public Faculty(string descriere, string address,string website,int id, int salary, string job, string name, int age, string gender, string type) : base(id, salary, job, name, age, gender, type)
         {
             this.descriere = descriere;
             this.address = address;
